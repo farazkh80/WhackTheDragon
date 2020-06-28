@@ -1,0 +1,53 @@
+body{
+
+	background-color: black;
+} 
+.main-div {
+	margin-top: 100px;
+}
+.square {
+	width: 200px;
+	height: 200px;
+	border-style: solid;
+	border-color: white;
+}
+
+.stats {
+	margin: auto;
+	width: 400px;
+}
+h1{
+
+	color: white;
+	font-size: 60px;
+	text-align: center;
+
+
+}
+h2,h4{
+
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+h3,h5{
+
+	color: red;
+	font-size: 30px;
+	text-align: center;
+}
+.grid {
+
+	margin: auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+	width: 618px;
+	height: 618px;
+}
+.dragon {
+
+	background-image: url("dragon.jpg");
+	background-size: cover;
+}
