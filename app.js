@@ -22,10 +22,22 @@ function randomSquare(){
 	//assign the id of the randomPosition to hitPosition
 	hitPosition = randomPosition.id
 }
-
+//for touch screen
 square.forEach(id => {
 
-	id.addEventListener('mouseup', () => {
+	id.addEventListener('touchstart', () => {
+		if(id.id === hitPosition){
+			result = result + 1
+			score.textContent = result
+
+		}
+	})
+})
+
+//for desktop
+square.forEach(id => {
+
+	id.addEventListener('click', () => {
 		if(id.id === hitPosition){
 			result = result + 1
 			score.textContent = result
